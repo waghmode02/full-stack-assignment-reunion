@@ -1,0 +1,133 @@
+.datatable-container {
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    color: gray;
+    padding: 30px;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .data-table th, .data-table td {
+    border: 1px solid gray;
+    padding: 8px;
+  }
+  
+  .loader {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .search-input {
+    margin-top: 10px;
+    padding: 8px;
+    background: #ffff;
+    color: gray;
+    
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .icons{
+    margin: 10px;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: -300px; /* Initially hidden */
+    width: 300px;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 1000;
+    transition: right 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar.open {
+    right: 0;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .close-button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 20px;
+  }
+  
+  .sort-options {
+    padding: 20px;
+  }
+  
+  .sort-options label {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .sort-options input[type='radio'] {
+    margin-right: 10px;
+  }
+  .date-sort-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    transition: transform 0.3s ease;
+    transform: translateX(100%);
+  }
+  
+  .date-sort-container.open {
+    display: block;
+    transform: translateX(0);
+  }
+  
+  .date-sort-content {
+    padding: 20px;
+  }
+  
+  .date-sort-content input {
+    margin: 10px 0;
+    width: 100%;
+    color: grey;
+  }
+  
+  .date-sort-content button {
+    display: block;
+    width: 100%;
+  }
+  .icons{
+    cursor: pointer;
+  }
+
+  
+  .icons:hover {
+    transform: scale(1.1); 
+  }
+  
+ 

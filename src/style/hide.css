@@ -1,0 +1,60 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  background: #fff;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sort-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 8px;
+  float: inline-end;
+}
+
+.actions {
+  display: flex;
+  margin-top: 16px;
+  flex-direction:column;
+}
+
+#btn1 {
+  margin: 15px;
+  background: #fff;
+  color: grey;
+}
+#btn2{
+  background: #0379b8;
+  color: white;
+  margin: 15px;
+}
+
+#btn2:hover{
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
+}
+
+#btn1:hover{
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
+}
+#closeID:hover{
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
+
+}
